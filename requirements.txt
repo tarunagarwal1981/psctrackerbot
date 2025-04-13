@@ -1,2 +1,5 @@
 streamlit
 pandas
+openai
+requests
+plotly
