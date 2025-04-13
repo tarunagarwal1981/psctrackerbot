@@ -27,7 +27,7 @@ if 'df' not in st.session_state:
     st.session_state.df = None
 
 # Fetch OpenAI API key from Streamlit secrets
-openai_api_key = st.secrets["openai_api_key"]
+openai_api_key = st.secrets["openai"]["openai_api_key"]
 client = OpenAI(api_key=openai_api_key)
 
 # Lambda function URL
